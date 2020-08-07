@@ -11,8 +11,6 @@ def has_negatives(a):
 
         if num != 0 and -num in numbers:
             result.append(abs(num))
-            print(numbers)
-            print(result)
 
     return result
 
