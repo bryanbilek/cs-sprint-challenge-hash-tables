@@ -10,7 +10,8 @@ def intersection(arrays):
         for num in arr:
             if num not in count:
                 count[num] = 1
-            count[num] += 1
+            else:
+                count[num] += 1
 
             if count[num] == len(arrays):
                 result.append(num)
